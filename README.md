@@ -25,7 +25,7 @@ Clone this repository to your local Sublime Text folder.
 
 **MacOS:**
 ```
-git clone https://github.com/aidenfoxivey/sublime-zig-unofficial "/Users/$USER/Library/Application Support/Sublime Text/Packages/ZigUnofficial
+git clone https://github.com/aidenfoxivey/sublime-zig-unofficial "/Users/$USER/Library/Application Support/Sublime Text/Packages/ZigUnofficial"
 ```
 
 **Linux:**
