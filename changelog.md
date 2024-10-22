@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- added f80 type
+
 ### Changed
 
 - Fixed path to this file in README
