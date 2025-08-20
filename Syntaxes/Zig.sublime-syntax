@@ -172,7 +172,7 @@ contexts:
   keywords:
     - match: \b(while|for|break|return|continue|asm|defer|errdefer|unreachable)\b
       scope: keyword.control.zig
-    - match: \b(async|await|suspend|nosuspend|resume)\b
+    - match: \b(suspend|nosuspend|resume)\b
       scope: keyword.control.async.zig
     - match: \b(if|else|switch|try|catch|orelse)\b
       scope: keyword.control.conditional.zig
