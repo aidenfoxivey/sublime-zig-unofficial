@@ -16,7 +16,7 @@ See a full list of changes in [changelog.md](./changelog.md).
 Auto-install
 ------------
 
-Search for `ZigUnofficial` on [Package Control](https://packagecontrol.io).
+Search for `ZigUnofficial` on [Package Control](https://packages.sublimetext.io/).
 
 Manually
 --------
@@ -25,7 +25,7 @@ Clone this repository to your local Sublime Text folder.
 
 **MacOS:**
 ```
-git clone https://github.com/aidenfoxivey/sublime-zig-unofficial "/Users/$USER/Library/Application Support/Sublime Text/Packages/ZigUnofficial"
+git clone https://github.com/aidenfoxivey/sublime-zig-unofficial ~/Library/Application Support/Sublime Text/Packages/ZigUnofficial
 ```
 
 **Linux:**
