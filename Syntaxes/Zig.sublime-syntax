@@ -246,7 +246,7 @@ contexts:
     - match: \berror\b
       scope: keyword.declaration.error.zig
   storage_modifier:
-    - match: \b(const|var|extern|packed|export|pub|noalias|inline|noinline|comptime|volatile|align|linksection|threadlocal|allowzero)\b
+    - match: \b(const|var|extern|packed|export|pub|noalias|inline|noinline|comptime|volatile|align|linksection|threadlocal|allowzero|addrspace|callconv)\b
       scope: storage.modifier.zig
   strings:
     - match: \'
@@ -274,6 +274,9 @@ contexts:
     - match: '@[^\"\d][a-zA-Z_]\w*\b'
       scope: support.function.zig
   variables:
+    - match: '\b(anytype|opaque)\b'
+      scope: storage.type.builtin.zig
+
     - match: '\b[_A-Z][_A-Z0-9]+\b'
       scope: variable.constant.zig
 
