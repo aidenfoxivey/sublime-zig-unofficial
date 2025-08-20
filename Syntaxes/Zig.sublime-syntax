@@ -178,8 +178,6 @@ contexts:
       scope: keyword.control.conditional.zig
     - match: (@import|@cImport|@cInclude)\b
       scope: keyword.control.import.zig
-    - match: \b(usingnamespace)\b
-      scope: keyword.other.usingnamespace.zig
   label:
     - match: '\b(break|continue)\s*:\s*([a-zA-Z_]\w*|@\".+\")\b|\b(?!\d)([a-zA-Z_]\w*|@\".+\")\b(?=\s*:\s*(?:\{|while\b))'
       captures:
