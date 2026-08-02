@@ -211,15 +211,13 @@ contexts:
         2: punctuation.separator.zig
       push:
         # Don't consume the closing ')'
-        - match: '([a-zA-Z_][\w.]*|@\".+\")?\s*(,|(?=\)))'
+        - match: '(,)|(?=\))'
           captures:
-            1: storage.type.zig
-            2: punctuation.separator.zig
-            3: punctuation.section.parens.end.zig
+            1: punctuation.separator.zig
           pop: true
-        - include: main
-        - match: '([a-zA-Z_][\w.]*|@\".+\")'
+        - match: '((?:\*|\?|\[\])*[a-zA-Z_][\w.]*|@\".+\")'
           scope: storage.type.zig
+        - include: main
   punctuation:
     - match: ","
       scope: punctuation.separator.zig
