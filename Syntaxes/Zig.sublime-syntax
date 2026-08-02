@@ -257,7 +257,7 @@ contexts:
         - include: character_escapes
         - match: '\\[^\''][^\'']*?'
           scope: invalid.illegal.character.zig
-    - match: c?\"
+    - match: \"
       push:
         - meta_scope: string.quoted.double.zig
         - match: \"
@@ -265,7 +265,7 @@ contexts:
         - include: character_escapes
         - match: '\\[^\''][^\'']*?'
           scope: invalid.illegal.character.zig
-    - match: c?\\\\
+    - match: \\\\
       push:
         - meta_scope: string.quoted.other.zig
         - match: $\n?
