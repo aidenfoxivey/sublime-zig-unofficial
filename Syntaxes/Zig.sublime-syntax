@@ -272,7 +272,7 @@ contexts:
           pop: true
   support:
     - match: '@[^\"\d][a-zA-Z_]\w*\b'
-      scope: support.function.zig
+      scope: support.function.builtin.zig
   variables:
     - match: '\b(anytype|opaque)\b'
       scope: storage.type.builtin.zig
