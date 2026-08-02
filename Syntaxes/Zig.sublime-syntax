@@ -176,7 +176,7 @@ contexts:
       scope: keyword.control.async.zig
     - match: \b(if|else|switch|try|catch|orelse)\b
       scope: keyword.control.conditional.zig
-    - match: (@import|@cImport|@cInclude)\b
+    - match: (@import)\b
       scope: keyword.control.import.zig
   label:
     - match: '\b(break|continue)\s*:\s*([a-zA-Z_]\w*|@\".+\")\b|\b(?!\d)([a-zA-Z_]\w*|@\".+\")\b(?=\s*:\s*(?:\{|while\b))'
