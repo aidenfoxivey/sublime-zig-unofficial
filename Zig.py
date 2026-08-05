@@ -165,6 +165,7 @@ class ZigBuildCommand(sublime_plugin.WindowCommand, ProcessSink):
                 r'^(?:\S.*):(\d*):(\d*): (?:[^:]*): (.*)$'
             )
             settings.set('result_base_dir', working_dir)
+            settings.set('scroll_past_end', False)
             self.window.create_output_panel('exec')
 
         if self.proc is not None:
